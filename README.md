@@ -58,8 +58,8 @@ Em ocasiões de muitas condicionais o switch/case entra para reduzir o número d
     }
 
     System.out.println("O dia " + day + " é " + dayName);
-  }
-}
+  }  
+  
 Nesse caso, quando o usuário digitar um dia correspondente à algum dia da semana, será apresentado o dia em si. Sem a necessidade de fazer uma codição para cada caso.
 
  ## ESTRUTURA DE REPETIÇÃO
