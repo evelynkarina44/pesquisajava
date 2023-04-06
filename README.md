@@ -27,7 +27,7 @@ if (numero > 0) {
 
 Em ocasiões de muitas condicionais o switch/case entra para reduzir o número de if else para não ficar um código extenso. O switch/case testa o valor contido em uma variável, realizando uma comparação com cada uma das opções. Cada uma dessas possíveis opções é delimitada pela instrução case. Quando o código do case corresponder ele será executado, caso contrário somente o último bloco será executado, sendo chamado de default (padrão).
 
-    int day = 1;
+    int day = 1; //nesse caso a saída vai ser domingo
     String dayName;
 
     switch (day) {
