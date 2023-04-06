@@ -27,6 +27,41 @@ if (numero > 0) {
 
 Em ocasiões de muitas condicionais o switch/case entra para reduzir o número de if else para não ficar um código extenso. O switch/case testa o valor contido em uma variável, realizando uma comparação com cada uma das opções. Cada uma dessas possíveis opções é delimitada pela instrução case. Quando o código do case corresponder ele será executado, caso contrário somente o último bloco será executado, sendo chamado de default (padrão).
 
+    int day = 1;
+    String dayName;
+
+    switch (day) {
+      case 1:
+        dayName = "Domingo";
+        break;
+      case 2:
+        dayName = "Segunda-feira";
+        break;
+      case 3:
+        dayName = "Terça-feira";
+        break;
+      case 4:
+        dayName = "Quarta-feira";
+        break;
+      case 5:
+        dayName = "Quinta-feira";
+        break;
+      case 6:
+        dayName = "Sexta-feira";
+        break;
+      case 7:
+        dayName = "Sábado";
+        break;
+      default:
+        dayName = "Dia inválido";
+        break;
+    }
+
+    System.out.println("O dia " + day + " é " + dayName);
+  }
+}
+Nesse caso, quando o usuário digitar um dia correspondente à algum dia da semana, será apresentado o dia em si. Sem a necessidade de fazer uma codição para cada caso.
+
  ## ESTRUTURA DE REPETIÇÃO
 
 São estruturas onde as intruções serão repetidas até a condição desejada. Temos tipos de repetições como:
