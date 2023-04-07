@@ -66,26 +66,32 @@ Nesse caso, quando o usuário digitar um dia correspondente à algum dia da sema
 
 São estruturas onde as intruções serão repetidas até a condição desejada. Temos tipos de repetições como:
 **FOR**- Utilizado quando temos um número fixo de iterações necessárias para o loop.Estrutura 
+
     for (início; condição; incremento/decremento) EX:
     for (int i = 0; i < 10; i++){
     System.out.println(i) -apresenta o valor da variãvel.
     }
+
 Nesse exemplo todas as intruções dentro do for, serão executadas até o i=0 chegar à 10.
 
 **WHILE**- É uma estrutura de repetição, que antes das intruções serem executadas a condição será verificada, se a condição não for correspondida, as intruções não serão executadas.
+
     int i = 0;
     while (i < 10){
     System.out.println(i)
     i++;
     } 
+
 A instrução será repetida enquanto i for menor do que 10.
 
 **DO/WHILE**-  Diferente do WHILE, o DO/WHILE irá executar as intruções e depois verificar a condição, ou seja, as intruções vão ser executadas pelo menos uma vez antes de ser verificadas.
+
     int i = 0;
     do {
     System.out.println(i);
     i++;
     } while (i < 10);
+    
 Aqui o DO significa faça, e o while seria até (até a condição ser verdadeira).  
 
 
